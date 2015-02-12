@@ -15,61 +15,104 @@
   
   <body>
   <div class="container-fluid" id="header" style ='background-color: #2ba6cb;'>
- <h1>HOMELETTE</h1><h4>From the best chefs in the world directly into your kitchen</h4>
+	<h1>HOMELETTE</h1><h4>From the best chefs in the world directly into your kitchen</h4>
   </div>
 
   
 	<div class="row">
 		<div class="col-md-3">
-			<div><h4>MY DINNER</h4></div>
 			<div class="container">
 				<h1>Dinner planner</h1>
 				<div id="exampleView">
 					<div>
-						Number of guests: <span id="numberOfGuests"></span>
-					</div>
-					<div>
-						<button id="minusGuest" class="btn"><span class="glyphicon glyphicon-minus"></span></button>
-						<button id="plusGuest" class="btn"><span class="glyphicon glyphicon-plus"></span></button>
-					</div>
-					<div>
-						PUT THE PRICE CALULATION HERE
-					</div>
-					<div>
-						<button id="plusGuest" class="btn"><span class="confirm dinner">Confirm Dinner</span></button>
+						<div>
+							Number of guests:
+						</div>
+						<div>
+							<button id="minusGuest" class="btn"><span class="glyphicon glyphicon-plus"></span></button>
+							<span id="numberOfGuests"></span>
+							<button id="plusGuest" class="btn"><span class="glyphicon glyphicon-minus"></span></button>
+						</div>
+							<div>
+							
+    						Put the code for locked ingredients here
+							
+							</div>
+						<div>
+							<button id="plusGuest" class="btn col-md-3"><span class="confirm dinner">Confirm Dinner</span></button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-9">
-			<div>
-				<h4>select dish</h4>
-					<div>
-						<form class="navbar-form navbar-left" role="search">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Search">
-							</div>
-							<button type="submit" class="btn btn-default">Search</button>
-								<select class="form-control">
-									<option>Starter</option>
-									<option>Main Dish</option>
-									<option>Dessert</option>
-								</select>
-						</form>
+			<div id="navbar">
+				<h4 id="selectdish">select dish</h4>
+				<hr>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Search dish">
+									<span class="input-group-btn">
+									<button class="btn btn-default" type="button">Search</button>
+									</span>
+							</div><!-- /input-group -->
+						</div><!-- /.col-lg-6 -->
+						<div class="col-md-3">
+							<select class="form-control">
+								<option>Starter</option>
+								<option>Main Dish</option>
+								<option>Dessert</option>
+							</select>
+						</div>
 					</div>	
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-2">
-			   <img class="img-responsive img-rounded" src="images/toast.jpg" />
-			 </div>
-			 <div class="col-md-2">
-			   <img class="img-responsive img-rounded" src="images/icecream.jpg" />
-			 </div>
-
-			 <div class="col-md-2">
-			   <img class="img-responsive img-rounded" src="images/meatballs.jpg" />
-			 </div>
+			
+			<div class="row" id="dishdisplay">
+			  <div class="col-sm-3 col-md-2">
+				<a class="thumbnail">
+				  <img src="images/meatballs.jpg" alt="125x125">
+				  <div class="caption">
+					<h3>Meat balls</h3>
+					<p>Tasty meatballs with an extra touch of spices.</p>
+				  </div>
+				</a>
+			  </div><div class="col-sm-3 col-md-2">
+				<a class="thumbnail">
+				  <img src="images/icecream.jpg" alt="125x125">
+				  <div class="caption">
+					<h3>Meat balls</h3>
+					<p>Tasty meatballs with an extra touch of spices.</p>
+				  </div>
+				</a>
+			  </div><div class="col-sm-3 col-md-2">
+				<a class="thumbnail">
+				  <img src="images/sourdough.jpg" alt="125x125">
+				  <div class="caption">
+					<h3>Meat balls</h3>
+					<p>Tasty meatballs with an extra touch of spices.</p>
+				  </div>
+				</a>
+			  </div>
+			  <div class="col-sm-3 col-md-2">
+				<a class="thumbnail">
+				  <img src="images/toast.jpg" alt="125x125">
+				  <div class="caption">
+					<h3>Meat balls</h3>
+					<p>Tasty meatballs with anpices.</p>
+				  </div>
+				</a>
+			  </div>
+			  <div class="col-sm-3 col-md-2">
+				<a class="thumbnail">
+				  <img src="images/bakedbrie.jpg" alt="125x125">
+				  <div class="caption">
+					<h3>Meat balls</h3>
+					<p>Tasty meatballs with anpices.</p>
+				  </div>
+				</a>
+			  </div>
+			</div>
 		</div>
 	</div>
 	

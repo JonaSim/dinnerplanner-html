@@ -13,7 +13,6 @@
 }
 
 
-
 div.jumbotron {
     font-size: 15px;
 }
@@ -34,4 +33,21 @@ padding: 30px 15px;
 margin-bottom: 15px;
 color: inherit;
 background-color: #D7E46B;
+}
+
+#test {
+	display: block;
+}
+
+#navbar {
+	height: 100px;
+	background-color: #ffd700;
+}
+
+#navbar h4{
+	padding: 20px 0 0 -20px;
+}
+
+#dishdisplay{
+	padding: 20px 0 0 20px;
 }
