@@ -77,11 +77,25 @@ margin-left: 20px;
 #preparation,.media-body p{
 	text-align:justify;
 }
+#Preparationpage2 p{
+	text-align:justify;
 
-
+}
+#Preparationpage2 h4{
+	padding-left: 0px;
+	font-size: 25px;
+}
+#Preparationpage2{
+	margin-top: 30px;
+}
 #ingredientslist{
     border: 1px solid #ccc;
     padding: 0px 20px 20px 20px;
+}
+#navbartable table{
+    outline-style: none;
+    margin-top: 20px;
+    margin-left: 0px;
 }
  #image{
  	padding: 0px 20px 20px 20px;
