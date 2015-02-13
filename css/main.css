@@ -71,6 +71,14 @@ margin-top: 20px;
 margin-left: 20px;
 }
 
+#page3{
+	margin-top: 10%;
+}
+#preparation,.media-body p{
+	text-align:justify;
+}
+
+
 #ingredientslist{
     border: 1px solid #ccc;
     padding: 0px 20px 20px 20px;
